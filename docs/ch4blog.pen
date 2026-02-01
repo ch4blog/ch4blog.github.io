@@ -1,0 +1,5369 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Art Blog Page",
+      "clip": true,
+      "width": 1440,
+      "height": 3600,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#BFE9FF",
+            "position": 0
+          },
+          {
+            "color": "#E9F7FF",
+            "position": 0.35
+          },
+          {
+            "color": "#FFF6EE",
+            "position": 0.8
+          },
+          {
+            "color": "#FFE9F2",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "vertical",
+      "gap": 36,
+      "padding": [
+        48,
+        64,
+        64,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "CKypK",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 140,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFFDF7",
+                "position": 0
+              },
+              {
+                "color": "#FFF1F6",
+                "position": 0.45
+              },
+              {
+                "color": "#EFF9FF",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            32,
+            32,
+            36,
+            32
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "WYJs9",
+              "name": "Nav",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 999,
+              "stroke": {
+                "thickness": 2,
+                "fill": "#1B1B1B"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1B1B1B",
+                "offset": {
+                  "x": 4,
+                  "y": 4
+                }
+              },
+              "gap": 16,
+              "padding": [
+                10,
+                16
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yrzK4",
+                  "name": "Logo Wrap",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IxIUf",
+                      "name": "logoText",
+                      "fill": "#1B1B1B",
+                      "content": "ch4 art diary",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tHDuA",
+                      "name": "Logo Tag",
+                      "fill": "#FFE57A",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 2,
+                          "y": 2
+                        }
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aqtq2",
+                          "name": "logoTagText",
+                          "fill": "#1B1B1B",
+                          "content": "藝術生",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zL75O",
+                  "name": "Nav Links",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lRj6D",
+                      "name": "link1",
+                      "fill": "#5F5A58",
+                      "content": "作品牆",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "APy9q",
+                      "name": "link2",
+                      "fill": "#5F5A58",
+                      "content": "練習日誌",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s8Poh",
+                      "name": "link3",
+                      "fill": "#5F5A58",
+                      "content": "計畫",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mTpQY",
+                      "name": "link4",
+                      "fill": "#5F5A58",
+                      "content": "關於",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9gMer",
+                      "name": "link5",
+                      "fill": "#5F5A58",
+                      "content": "聯絡",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bvLsM",
+                  "name": "合作邀約",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 4,
+                      "y": 4
+                    }
+                  },
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XQ8KV",
+                      "name": "navButtonText",
+                      "fill": "#1B1B1B",
+                      "content": "合作邀約",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nDQsg",
+              "name": "Hero Grid",
+              "width": "fill_container",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "5TQC5",
+                  "name": "Hero Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qzWSz",
+                      "name": "eyebrow",
+                      "fill": "#5F5A58",
+                      "content": "藝術生的繪畫日誌",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Uk9tg",
+                      "name": "heroTitle",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "把色彩與靈感，\n收進可愛的練習日記。",
+                      "lineHeight": 1.05,
+                      "fontFamily": "Fredoka",
+                      "fontSize": 44,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VRRQT",
+                      "name": "heroLead",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "這裡放我的作品、臨摹記錄、課後筆記與小心得。用軟萌配色與清楚步驟，把進步的軌跡畫出來。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CH6qt",
+                      "name": "Badges",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "pyIEm",
+                          "name": "badge1",
+                          "fill": "#FFC6B8",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DGpSN",
+                              "name": "badge1Text",
+                              "fill": "#1B1B1B",
+                              "content": "夢幻配色",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EVO0X",
+                          "name": "badge2",
+                          "fill": "#8BD7FF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "N30D3",
+                              "name": "badge2Text",
+                              "fill": "#1B1B1B",
+                              "content": "角色設計",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wltve",
+                          "name": "badge3",
+                          "fill": "#B7F5E0",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lIfxF",
+                              "name": "badge3Text",
+                              "fill": "#1B1B1B",
+                              "content": "線稿練習",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6jb6C",
+                      "name": "Hero Actions",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "2X9j6",
+                          "name": "btnPrimary",
+                          "fill": "#FF7AA2",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 4,
+                              "y": 4
+                            }
+                          },
+                          "padding": [
+                            10,
+                            18
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jKavG",
+                              "name": "btnPrimaryText",
+                              "fill": "#FFFFFF",
+                              "content": "打開作品牆",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "y4pRp",
+                          "name": "btnGhost",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 4,
+                              "y": 4
+                            }
+                          },
+                          "padding": [
+                            10,
+                            18
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FPuaC",
+                              "name": "btnGhostText",
+                              "fill": "#2B2B2B",
+                              "content": "翻翻練習日誌",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a9Dd5",
+                      "name": "Hero Meta",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ydsJv",
+                          "name": "metaCard1",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "5rBZP",
+                              "name": "metaLabel1",
+                              "fill": "#5F5A58",
+                              "content": "正在進行",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "LAIQ1",
+                              "name": "metaValue1",
+                              "fill": "#1B1B1B",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "角色表情 / 海洋配色 / 光影漸層",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RoX1z",
+                          "name": "metaCard2",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "7kzOg",
+                              "name": "metaLabel2",
+                              "fill": "#5F5A58",
+                              "content": "本週練習",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Dm0rp",
+                              "name": "metaValue2",
+                              "fill": "#1B1B1B",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "上色 3 張 / 速寫 6 張",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rC1EB",
+                  "name": "Hero Right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gTgNW",
+                      "name": "Hero Card 1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 6,
+                          "y": 6
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GDsif",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 180,
+                          "fill": "#FFE6DC",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "PF08O",
+                          "name": "card1Cap",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "《晨光》/ 色鉛筆 / 2026.01",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "o47cZ",
+                      "name": "Hero Card 2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 6,
+                          "y": 6
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Ex4Qc",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 180,
+                          "fill": "#D6EFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "impPd",
+                          "name": "card2Cap",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "《街角速寫》/ 鋼筆 / 2025.12",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZyCon",
+                      "name": "Hero Card 3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 6,
+                          "y": 6
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PCJmk",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 180,
+                          "fill": "#FFF2B6",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "fscXq",
+                          "name": "card3Cap",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "《雨後》/ 水彩 / 2025.11",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZwGZc",
+          "name": "Works Section",
+          "width": "fill_container",
+          "fill": "#FFFDF7",
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "55haF",
+              "name": "Works Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AXoJi",
+                  "name": "worksHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nRfqW",
+                      "name": "worksEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "作品牆",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "mpr2n",
+                      "name": "worksTitle",
+                      "fill": "#1B1B1B",
+                      "content": "夢幻系列與練習筆記",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "FRRAu",
+                  "name": "worksSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "每件作品都附上媒材、目標與反思，像貼紙一樣收藏進你的畫本。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5q1OA",
+              "name": "Works Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Kt0Cq",
+                  "name": "Row 1",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "16qWX",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KOCDs",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#FFE6DC",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "mHKeH",
+                          "name": "work1Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "光影研究：晨光人像",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oJ8gC",
+                          "name": "work1Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "色鉛筆 / 2026.01 / 3 小時",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rSpXm",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Cn017",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#D6EFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "ET713",
+                          "name": "work2Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "城市速寫：午後轉角",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fMTAs",
+                          "name": "work2Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "鋼筆 / 2025.12 / 45 分",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dl8Uj",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "34Kfd",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#FFF2B6",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "e6Qy2",
+                          "name": "work3Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "色塊練習：雨後植栽",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gCtjS",
+                          "name": "work3Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "水彩 / 2025.11 / 2 小時",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UzSIT",
+                  "name": "Row 2",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JAzcy",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Vd5BL",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#FFE6DC",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "ruOE8",
+                          "name": "work4Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "人體結構：手部拆解",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "9hole",
+                          "name": "work4Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "鉛筆 / 2025.10 / 30 分",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2nwnc",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "TZi5C",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#D6EFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "BqHaa",
+                          "name": "work5Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "光影研究：窗邊靜物",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P2roB",
+                          "name": "work5Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "炭筆 / 2025.09 / 1.5 小時",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hbXrK",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DmXn2",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#FFF2B6",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "OpUDw",
+                          "name": "work6Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "色彩筆記：暖灰與冷灰",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "n828S",
+                          "name": "work6Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "色卡練習 / 2025.08",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cQPv6",
+          "name": "Journal Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFF2DB",
+                "position": 0
+              },
+              {
+                "color": "#FFF8EF",
+                "position": 0.5
+              },
+              {
+                "color": "#F2FBFF",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "QVTsY",
+              "name": "Journal Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BKzAT",
+                  "name": "journalHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9lsu1",
+                      "name": "journalEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "練習日誌",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "nsO20",
+                      "name": "journalTitle",
+                      "fill": "#1B1B1B",
+                      "content": "每週的小小進度",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "zWay6",
+                  "name": "journalSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "以短篇幅記下本週的練習方向、卡關點與下一步。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KZyMj",
+              "name": "Journal Grid",
+              "width": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6UBe5",
+                  "name": "Journal Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QC8cG",
+                      "name": "jn1Date",
+                      "fill": "#5F5A58",
+                      "content": "2026.01.28",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nZu22",
+                      "name": "jn1Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "人物五官的平面拆解",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OB01q",
+                      "name": "jn1Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重新整理頭部五大平面，練習用三種灰階表現結構，避免只靠線條。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fIFOZ",
+                      "name": "jn1Tags",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "HUrcM",
+                          "name": "jn1Tag1",
+                          "fill": "#FFE57A",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "3qPdW",
+                              "name": "jn1Tag1Text",
+                              "fill": "#1B1B1B",
+                              "content": "結構",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I7BqI",
+                          "name": "jn1Tag2",
+                          "fill": "#B7F5E0",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NinAO",
+                              "name": "jn1Tag2Text",
+                              "fill": "#1B1B1B",
+                              "content": "灰階",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JQ5go",
+                          "name": "jn1Tag3",
+                          "fill": "#8BD7FF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZTH1a",
+                              "name": "jn1Tag3Text",
+                              "fill": "#1B1B1B",
+                              "content": "人像",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hFyIa",
+                  "name": "Journal Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xdLmq",
+                      "name": "jn2Date",
+                      "fill": "#5F5A58",
+                      "content": "2026.01.21",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oWc80",
+                      "name": "jn2Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "水彩邊緣控制",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WgRzz",
+                      "name": "jn2Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "觀察紙張乾濕差異對邊緣的影響，記錄三種水量比例作為下次配方。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vPY6A",
+                      "name": "jn2Tags",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "i1XIH",
+                          "name": "jn2Tag1",
+                          "fill": "#FFE57A",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V69w2",
+                              "name": "jn2Tag1Text",
+                              "fill": "#1B1B1B",
+                              "content": "水彩",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N8NQw",
+                          "name": "jn2Tag2",
+                          "fill": "#B7F5E0",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "T5pDR",
+                              "name": "jn2Tag2Text",
+                              "fill": "#1B1B1B",
+                              "content": "肌理",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WIfiu",
+                          "name": "jn2Tag3",
+                          "fill": "#8BD7FF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aP0zo",
+                              "name": "jn2Tag3Text",
+                              "fill": "#1B1B1B",
+                              "content": "控制",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oiu1B",
+                  "name": "Journal Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hdBh3",
+                      "name": "jn3Date",
+                      "fill": "#5F5A58",
+                      "content": "2026.01.14",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hlsYq",
+                      "name": "jn3Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "速寫節奏與取捨",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LMwED",
+                      "name": "jn3Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "用 5 分鐘與 20 分鐘速寫比較，整理哪些細節是必要的故事元素。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eozh8",
+                      "name": "jn3Tags",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hjLOd",
+                          "name": "jn3Tag1",
+                          "fill": "#FFE57A",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "P8dw2",
+                              "name": "jn3Tag1Text",
+                              "fill": "#1B1B1B",
+                              "content": "速寫",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "opOtW",
+                          "name": "jn3Tag2",
+                          "fill": "#B7F5E0",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GqpZT",
+                              "name": "jn3Tag2Text",
+                              "fill": "#1B1B1B",
+                              "content": "構圖",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZtyUs",
+                          "name": "jn3Tag3",
+                          "fill": "#8BD7FF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xvRid",
+                              "name": "jn3Tag3Text",
+                              "fill": "#1B1B1B",
+                              "content": "節奏",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Oc9fM",
+          "name": "Learning Section",
+          "width": "fill_container",
+          "fill": "#FFFDF7",
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "oEL6m",
+              "name": "Learning Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ujtnA",
+                  "name": "learnHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7bZ0u",
+                      "name": "learnEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "學習路徑",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "qZnNm",
+                      "name": "learnTitle",
+                      "fill": "#1B1B1B",
+                      "content": "正在進行的計畫",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MAEEa",
+                  "name": "learnSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "把長期目標拆成可執行的週期，讓練習更有方向。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3UxiY",
+              "name": "Learning Grid",
+              "width": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jfZe8",
+                  "name": "Phase Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "H7h95",
+                      "name": "phase1Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "階段 1：結構與比例",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mIUyp",
+                      "name": "phase1Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重點：頭部比例、手部結構、基礎透視。",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qHpYm",
+                      "name": "phase1List",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "• 每週 3 次頭像拆解\n• 手部速寫 20 張\n• 方盒透視 10 張",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dN8RG",
+                  "name": "Phase Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xOJ3N",
+                      "name": "phase2Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "階段 2：光影與材質",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NkPJ6",
+                      "name": "phase2Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重點：灰階控制、不同材質的反光表現。",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0l57G",
+                      "name": "phase2List",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "• 灰階色卡與球體練習\n• 金屬 / 布料觀察筆記\n• 主題靜物寫生",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ooff2",
+                  "name": "Phase Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ha6mt",
+                      "name": "phase3Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "階段 3：色彩與氛圍",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eDjcF",
+                      "name": "phase3Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重點：色相關係、冷暖對比、場景敘事。",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NbVnp",
+                      "name": "phase3List",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "• 配色練習與檔案整理\n• 光源情境練習\n• 情緒草圖 6 張",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "va5Aq",
+          "name": "About Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFF2DB",
+                "position": 0
+              },
+              {
+                "color": "#FFF8EF",
+                "position": 0.5
+              },
+              {
+                "color": "#F2FBFF",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Zultd",
+              "name": "About Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bF3BR",
+                  "name": "aboutHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0wxeO",
+                      "name": "aboutEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "關於我",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "LIvr3",
+                      "name": "aboutTitle",
+                      "fill": "#1B1B1B",
+                      "content": "把繪畫當成長期練習",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "uMcjR",
+                  "name": "aboutSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "我喜歡記錄練習過程，也願意分享卡關與解法。希望透過這個部落格，累積一條清楚的學習軌跡。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fG46P",
+              "name": "About Grid",
+              "width": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HcCJN",
+                  "name": "About Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4RAR0",
+                      "name": "about1Title",
+                      "fill": "#1B1B1B",
+                      "content": "目前關注",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LQYCq",
+                      "name": "about1Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "人像結構與光影、城市速寫、色鉛筆層次與水彩氛圍。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "a8EsL",
+                  "name": "About Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aoZUI",
+                      "name": "about2Title",
+                      "fill": "#1B1B1B",
+                      "content": "工具與媒材",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MxF2I",
+                      "name": "about2Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "鉛筆 / 色鉛筆 / 鋼筆 / 炭筆 / 水彩 / 素描紙",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ozFqG",
+                  "name": "About Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BIXiV",
+                      "name": "about3Title",
+                      "fill": "#1B1B1B",
+                      "content": "合作與委託",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C1hri",
+                      "name": "about3Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "可接受插畫、簡易角色設計或視覺筆記合作。歡迎來信討論。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DK8nE",
+          "name": "Contact Section",
+          "width": "fill_container",
+          "fill": "#FFFDF7",
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "5O6UI",
+              "name": "Contact Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9Bc64",
+                  "name": "contactHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z3Yau",
+                      "name": "contactEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "聯絡方式",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "tUlkA",
+                      "name": "contactTitle",
+                      "fill": "#1B1B1B",
+                      "content": "一起聊聊創作",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "NhNGO",
+                  "name": "contactSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "可替換成你的 Email、IG 或 Behance。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vo1FV",
+              "name": "Contact Grid",
+              "width": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Kl6EI",
+                  "name": "Contact Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FJsdI",
+                      "name": "contact1Title",
+                      "fill": "#1B1B1B",
+                      "content": "電子郵件",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "keTPA",
+                      "name": "contact1Value",
+                      "fill": "#5F5A58",
+                      "content": "hello@yourmail.com",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NLKno",
+                  "name": "Contact Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lVLZm",
+                      "name": "contact2Title",
+                      "fill": "#1B1B1B",
+                      "content": "Instagram",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FmNHe",
+                      "name": "contact2Value",
+                      "fill": "#5F5A58",
+                      "content": "@yourhandle",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BeFkC",
+                  "name": "Contact Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZXgJO",
+                      "name": "contact3Title",
+                      "fill": "#1B1B1B",
+                      "content": "作品集",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MlneJ",
+                      "name": "contact3Value",
+                      "fill": "#5F5A58",
+                      "content": "behance.net/yourname",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GVaZ9",
+          "name": "Footer",
+          "width": "fill_container",
+          "gap": 12,
+          "padding": [
+            18,
+            24
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ih7g8",
+              "name": "footerText",
+              "fill": "#5F5A58",
+              "content": "© 2026 ch4 繪畫記錄｜保留所有權利",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "FdFfs",
+      "x": 1600,
+      "y": 0,
+      "name": "Page - Home",
+      "width": 1440,
+      "height": 1023,
+      "fill": "#E9F7FF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        64,
+        64,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "upcqo",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 140,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFFDF7",
+                "position": 0
+              },
+              {
+                "color": "#FFF1F6",
+                "position": 0.45
+              },
+              {
+                "color": "#EFF9FF",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            32,
+            32,
+            36,
+            32
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "S26i6",
+              "name": "Nav",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 999,
+              "stroke": {
+                "thickness": 2,
+                "fill": "#1B1B1B"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1B1B1B",
+                "offset": {
+                  "x": 4,
+                  "y": 4
+                }
+              },
+              "gap": 16,
+              "padding": [
+                10,
+                16
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mUWJs",
+                  "name": "Logo Wrap",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6Dhix",
+                      "name": "logoText",
+                      "fill": "#1B1B1B",
+                      "content": "ch4 art diary",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bxdJK",
+                      "name": "Logo Tag",
+                      "fill": "#FFE57A",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 2,
+                          "y": 2
+                        }
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D0gVi",
+                          "name": "logoTagText",
+                          "fill": "#1B1B1B",
+                          "content": "藝術生",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tkRfT",
+                  "name": "Nav Links",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "s0zq5",
+                      "name": "link1",
+                      "fill": "#5F5A58",
+                      "content": "作品牆",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gX1UE",
+                      "name": "link2",
+                      "fill": "#5F5A58",
+                      "content": "練習日誌",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yxDfs",
+                      "name": "link3",
+                      "fill": "#5F5A58",
+                      "content": "計畫",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c4i0r",
+                      "name": "link4",
+                      "fill": "#5F5A58",
+                      "content": "關於",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l6I8A",
+                      "name": "link5",
+                      "fill": "#5F5A58",
+                      "content": "聯絡",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "azQAS",
+                  "name": "合作邀約",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 4,
+                      "y": 4
+                    }
+                  },
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VRG8H",
+                      "name": "navButtonText",
+                      "fill": "#1B1B1B",
+                      "content": "合作邀約",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5CAtc",
+              "name": "Hero Grid",
+              "width": "fill_container",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4e8gg",
+                  "name": "Hero Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yiYwh",
+                      "name": "eyebrow",
+                      "fill": "#5F5A58",
+                      "content": "藝術生的繪畫日誌",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "e7m47",
+                      "name": "heroTitle",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "把色彩與靈感 ，收進可愛的練習日記。",
+                      "lineHeight": 1.05,
+                      "fontFamily": "Fredoka",
+                      "fontSize": 44,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "agfBh",
+                      "name": "heroLead",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "這裡放我的作品、臨摹記錄、課後筆記與小心得。用軟萌配色與清楚步驟，把進步的軌跡畫出來。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HkcPA",
+                      "name": "Badges",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "6EStD",
+                          "name": "badge1",
+                          "fill": "#FFC6B8",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SIdLM",
+                              "name": "badge1Text",
+                              "fill": "#1B1B1B",
+                              "content": "夢幻配色",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "G1uEs",
+                          "name": "badge2",
+                          "fill": "#8BD7FF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9Em3t",
+                              "name": "badge2Text",
+                              "fill": "#1B1B1B",
+                              "content": "角色設計",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0hSdl",
+                          "name": "badge3",
+                          "fill": "#B7F5E0",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HI4iK",
+                              "name": "badge3Text",
+                              "fill": "#1B1B1B",
+                              "content": "線稿練習",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Jlhez",
+                      "name": "Hero Actions",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IVpZM",
+                          "name": "btnPrimary",
+                          "fill": "#FF7AA2",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 4,
+                              "y": 4
+                            }
+                          },
+                          "padding": [
+                            10,
+                            18
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FKpMK",
+                              "name": "btnPrimaryText",
+                              "fill": "#FFFFFF",
+                              "content": "打開作品牆",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "156UP",
+                          "name": "btnGhost",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 4,
+                              "y": 4
+                            }
+                          },
+                          "padding": [
+                            10,
+                            18
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9ibSN",
+                              "name": "btnGhostText",
+                              "fill": "#2B2B2B",
+                              "content": "翻翻練習日誌",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cBco8",
+                      "name": "Hero Meta",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZtA5m",
+                          "name": "metaCard1",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "e20Oe",
+                              "name": "metaLabel1",
+                              "fill": "#5F5A58",
+                              "content": "正在進行",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mxnnd",
+                              "name": "metaValue1",
+                              "fill": "#1B1B1B",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "角色表情 / 海洋配色 / 光影漸層",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yvYz9",
+                          "name": "metaCard2",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#1B1B1B",
+                            "offset": {
+                              "x": 3,
+                              "y": 3
+                            }
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sRqvq",
+                              "name": "metaLabel2",
+                              "fill": "#5F5A58",
+                              "content": "本週練習",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "7bHXn",
+                              "name": "metaValue2",
+                              "fill": "#1B1B1B",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "上色 3 張 / 速寫 6 張",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ktEOB",
+              "name": "Hero Right",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QdtkF",
+                  "name": "Hero Card 1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000040",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 4
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vccdj",
+                      "name": "Artwork",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": "#FFE6DC",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "xFfmB",
+                      "name": "card1Cap",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "《晨光》/ 色鉛筆 / 2026.01",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kDX0C",
+                  "name": "Hero Card 2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 6,
+                      "y": 6
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GyNaa",
+                      "name": "Artwork",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": "#D6EFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "gypeD",
+                      "name": "card2Cap",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "《街角速寫》/ 鋼筆 / 2025.12",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qoB1r",
+                  "name": "Hero Card 3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 6,
+                      "y": 6
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "j9Wlr",
+                      "name": "Artwork",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": "#FFF2B6",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "gzOqG",
+                      "name": "card3Cap",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "《雨後》/ 水彩 / 2025.11",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tHvBO",
+      "x": 1600,
+      "y": 1120,
+      "name": "Page - Works",
+      "width": 1440,
+      "height": 782,
+      "fill": "#E9F7FF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        64,
+        64,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "s0Uu9",
+          "name": "Works Section",
+          "width": "fill_container",
+          "fill": "#FFFDF7",
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "g2WlG",
+              "name": "Works Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PBO4Y",
+                  "name": "worksHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "azJ4o",
+                      "name": "worksEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "作品牆",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "4APvf",
+                      "name": "worksTitle",
+                      "fill": "#1B1B1B",
+                      "content": "夢幻系列與練習筆記",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Xdyzf",
+                  "name": "worksSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "每件作品都附上媒材、目標與反思，像貼紙一樣收藏進你的畫本。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Oo5uG",
+              "name": "Works Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AUoEZ",
+                  "name": "Row 1",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NGYmu",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "SMvNj",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#FFE6DC",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "JaBkw",
+                          "name": "work1Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "光影研究：晨光人像",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nJfyJ",
+                          "name": "work1Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "色鉛筆 / 2026.01 / 3 小時",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Pelq2",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lNyEE",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#D6EFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "GpYkr",
+                          "name": "work2Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "城市速寫：午後轉角",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "96y4l",
+                          "name": "work2Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "鋼筆 / 2025.12 / 45 分",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AjJJI",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "8BT1u",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#FFF2B6",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "BZawc",
+                          "name": "work3Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "色塊練習：雨後植栽",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cf8yK",
+                          "name": "work3Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "水彩 / 2025.11 / 2 小時",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JYqRn",
+                  "name": "Row 2",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tebvO",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PLXrH",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#FFE6DC",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "JdBry",
+                          "name": "work4Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "人體結構：手部拆解",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "u9i3p",
+                          "name": "work4Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "鉛筆 / 2025.10 / 30 分",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CREph",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "beTKC",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#D6EFFF",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "cVyXC",
+                          "name": "work5Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "光影研究：窗邊靜物",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Vxl91",
+                          "name": "work5Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "炭筆 / 2025.09 / 1.5 小時",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6gsnz",
+                      "name": "Work Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 22,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1B1B1B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1B1B1B",
+                        "offset": {
+                          "x": 5,
+                          "y": 5
+                        }
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "5q9Qu",
+                          "name": "Artwork",
+                          "width": "fill_container",
+                          "height": 160,
+                          "fill": "#FFF2B6",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "r4dJf",
+                          "name": "work6Title",
+                          "fill": "#1B1B1B",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "色彩筆記：暖灰與冷灰",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ciEP8",
+                          "name": "work6Meta",
+                          "fill": "#5F5A58",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "色卡練習 / 2025.08",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qvXma",
+      "x": 1600,
+      "y": 1980,
+      "name": "Page - Journal",
+      "width": 1440,
+      "height": 431,
+      "fill": "#E9F7FF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        64,
+        64,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "RuoHo",
+          "name": "Journal Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFF2DB",
+                "position": 0
+              },
+              {
+                "color": "#FFF8EF",
+                "position": 0.5
+              },
+              {
+                "color": "#F2FBFF",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "wtCOE",
+              "name": "Journal Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "shzCx",
+                  "name": "journalHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xMsN8",
+                      "name": "journalEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "練習日誌",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "OG35b",
+                      "name": "journalTitle",
+                      "fill": "#1B1B1B",
+                      "content": "每週的小小進度",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "tzLYH",
+                  "name": "journalSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "以短篇幅記下本週的練習方向、卡關點與下一步。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CuCsU",
+              "name": "Journal Grid",
+              "width": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2aueL",
+                  "name": "Journal Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0qnMw",
+                      "name": "jn1Date",
+                      "fill": "#5F5A58",
+                      "content": "2026.01.28",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UTmt8",
+                      "name": "jn1Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "人物五官的平面拆解",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "76Zyk",
+                      "name": "jn1Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重新整理頭部五大平面，練習用三種灰階表現結構，避免只靠線條。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qmXCG",
+                      "name": "jn1Tags",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JgKOk",
+                          "name": "jn1Tag1",
+                          "fill": "#FFE57A",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "6NFpG",
+                              "name": "jn1Tag1Text",
+                              "fill": "#1B1B1B",
+                              "content": "結構",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b29Hr",
+                          "name": "jn1Tag2",
+                          "fill": "#B7F5E0",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "6Wj4z",
+                              "name": "jn1Tag2Text",
+                              "fill": "#1B1B1B",
+                              "content": "灰階",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HMP0v",
+                          "name": "jn1Tag3",
+                          "fill": "#8BD7FF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "H83Oc",
+                              "name": "jn1Tag3Text",
+                              "fill": "#1B1B1B",
+                              "content": "人像",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s4zTD",
+                  "name": "Journal Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bMffj",
+                      "name": "jn2Date",
+                      "fill": "#5F5A58",
+                      "content": "2026.01.21",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nfwFT",
+                      "name": "jn2Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "水彩邊緣控制",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T4g2D",
+                      "name": "jn2Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "觀察紙張乾濕差異對邊緣的影響，記錄三種水量比例作為下次配方。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OjxMY",
+                      "name": "jn2Tags",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "RUuOa",
+                          "name": "jn2Tag1",
+                          "fill": "#FFE57A",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aA0W8",
+                              "name": "jn2Tag1Text",
+                              "fill": "#1B1B1B",
+                              "content": "水彩",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jUbQD",
+                          "name": "jn2Tag2",
+                          "fill": "#B7F5E0",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SG0Q6",
+                              "name": "jn2Tag2Text",
+                              "fill": "#1B1B1B",
+                              "content": "肌理",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qNlWp",
+                          "name": "jn2Tag3",
+                          "fill": "#8BD7FF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uMExn",
+                              "name": "jn2Tag3Text",
+                              "fill": "#1B1B1B",
+                              "content": "控制",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VdcTV",
+                  "name": "Journal Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lDr8d",
+                      "name": "jn3Date",
+                      "fill": "#5F5A58",
+                      "content": "2026.01.14",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zje55",
+                      "name": "jn3Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "速寫節奏與取捨",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ummIb",
+                      "name": "jn3Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "用 5 分鐘與 20 分鐘速寫比較，整理哪些細節是必要的故事元素。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Gxmqx",
+                      "name": "jn3Tags",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VOiS4",
+                          "name": "jn3Tag1",
+                          "fill": "#FFE57A",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SCC7D",
+                              "name": "jn3Tag1Text",
+                              "fill": "#1B1B1B",
+                              "content": "速寫",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cIJ6i",
+                          "name": "jn3Tag2",
+                          "fill": "#B7F5E0",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "55Pg2",
+                              "name": "jn3Tag2Text",
+                              "fill": "#1B1B1B",
+                              "content": "構圖",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BEgwn",
+                          "name": "jn3Tag3",
+                          "fill": "#8BD7FF",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "#1B1B1B"
+                          },
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NwqJQ",
+                              "name": "jn3Tag3Text",
+                              "fill": "#1B1B1B",
+                              "content": "節奏",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "sK9hj",
+      "x": 1600,
+      "y": 2480,
+      "name": "Page - Learning",
+      "width": 1440,
+      "height": 414,
+      "fill": "#E9F7FF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        64,
+        64,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "fNsiH",
+          "name": "Learning Section",
+          "width": "fill_container",
+          "fill": "#FFFDF7",
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "xUix1",
+              "name": "Learning Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CdauE",
+                  "name": "learnHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "a0iBg",
+                      "name": "learnEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "學習路徑",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "XDYcH",
+                      "name": "learnTitle",
+                      "fill": "#1B1B1B",
+                      "content": "正在進行的計畫",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "6Lzei",
+                  "name": "learnSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "把長期目標拆成可執行的週期，讓練習更有方向。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TPKYo",
+              "name": "Learning Grid",
+              "width": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "scAqN",
+                  "name": "Phase Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZzsH9",
+                      "name": "phase1Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "階段 1：結構與比例",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7QfLz",
+                      "name": "phase1Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重點：頭部比例、手部結構、基礎透視。",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7Dj6P",
+                      "name": "phase1List",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "• 每週 3 次頭像拆解\n• 手部速寫 20 張\n• 方盒透視 10 張",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dOF6q",
+                  "name": "Phase Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0Ifwv",
+                      "name": "phase2Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "階段 2：光影與材質",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gc1Op",
+                      "name": "phase2Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重點：灰階控制、不同材質的反光表現。",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RMmWm",
+                      "name": "phase2List",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "• 灰階色卡與球體練習\n• 金屬 / 布料觀察筆記\n• 主題靜物寫生",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kITpL",
+                  "name": "Phase Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ugU44",
+                      "name": "phase3Title",
+                      "fill": "#1B1B1B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "階段 3：色彩與氛圍",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ckC8x",
+                      "name": "phase3Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重點：色相關係、冷暖對比、場景敘事。",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DDTl0",
+                      "name": "phase3List",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "• 配色練習與檔案整理\n• 光源情境練習\n• 情緒草圖 6 張",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wP4PY",
+      "x": 1600,
+      "y": 2960,
+      "name": "Page - About",
+      "width": 1440,
+      "height": 347,
+      "fill": "#E9F7FF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        64,
+        64,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "smTPz",
+          "name": "About Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFF2DB",
+                "position": 0
+              },
+              {
+                "color": "#FFF8EF",
+                "position": 0.5
+              },
+              {
+                "color": "#F2FBFF",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "vQcj6",
+              "name": "About Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "799n8",
+                  "name": "aboutHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DecHp",
+                      "name": "aboutEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "關於我",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "q5nEN",
+                      "name": "aboutTitle",
+                      "fill": "#1B1B1B",
+                      "content": "把繪畫當成長期練習",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "CX74E",
+                  "name": "aboutSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "我喜歡記錄練習過程，也願意分享卡關與解法。希望透過這個部落格，累積一條清楚的學習軌跡。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1VNNA",
+              "name": "About Grid",
+              "width": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U2rsJ",
+                  "name": "About Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ieBis",
+                      "name": "about1Title",
+                      "fill": "#1B1B1B",
+                      "content": "目前關注",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eHmHW",
+                      "name": "about1Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "人像結構與光影、城市速寫、色鉛筆層次與水彩氛圍。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "la3mQ",
+                  "name": "About Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n0Dv4",
+                      "name": "about2Title",
+                      "fill": "#1B1B1B",
+                      "content": "工具與媒材",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TsEs1",
+                      "name": "about2Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "鉛筆 / 色鉛筆 / 鋼筆 / 炭筆 / 水彩 / 素描紙",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iDJen",
+                  "name": "About Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qDZ2Q",
+                      "name": "about3Title",
+                      "fill": "#1B1B1B",
+                      "content": "合作與委託",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RHKnc",
+                      "name": "about3Body",
+                      "fill": "#5F5A58",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "可接受插畫、簡易角色設計或視覺筆記合作。歡迎來信討論。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "khODe",
+      "x": 1600,
+      "y": 3360,
+      "name": "Page - Contact",
+      "width": 1440,
+      "height": 343,
+      "fill": "#E9F7FF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        64,
+        64,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "LWS2j",
+          "name": "Contact Section",
+          "width": "fill_container",
+          "fill": "#FFFDF7",
+          "cornerRadius": 32,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1B1B1B"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#1B1B1B",
+            "offset": {
+              "x": 6,
+              "y": 6
+            }
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "gHbJ9",
+              "name": "Contact Head",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oPamp",
+                  "name": "contactHeadLeft",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lXyNa",
+                      "name": "contactEyebrow",
+                      "fill": "#5F5A58",
+                      "content": "聯絡方式",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "CoZZB",
+                      "name": "contactTitle",
+                      "fill": "#1B1B1B",
+                      "content": "一起聊聊創作",
+                      "fontFamily": "Fredoka",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "TpUeD",
+                  "name": "contactSub",
+                  "fill": "#5F5A58",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "可替換成你的 Email、IG 或 Behance。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ltl1q",
+              "name": "Contact Grid",
+              "width": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2YsEY",
+                  "name": "Contact Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6W8aI",
+                      "name": "contact1Title",
+                      "fill": "#1B1B1B",
+                      "content": "電子郵件",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3D9lY",
+                      "name": "contact1Value",
+                      "fill": "#5F5A58",
+                      "content": "hello@yourmail.com",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "whK4j",
+                  "name": "Contact Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tU7nM",
+                      "name": "contact2Title",
+                      "fill": "#1B1B1B",
+                      "content": "Instagram",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SGAVP",
+                      "name": "contact2Value",
+                      "fill": "#5F5A58",
+                      "content": "@yourhandle",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LHCLP",
+                  "name": "Contact Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1B1B1B"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1B1B1B",
+                    "offset": {
+                      "x": 5,
+                      "y": 5
+                    }
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8hOs1",
+                      "name": "contact3Title",
+                      "fill": "#1B1B1B",
+                      "content": "作品集",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Iy7Of",
+                      "name": "contact3Value",
+                      "fill": "#5F5A58",
+                      "content": "behance.net/yourname",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
