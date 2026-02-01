@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>甲烷大王 Vlog</title>
+    <title>ch4 夢幻繪記｜藝術生部落格</title>
     <meta
       name="description"
-      content="記錄我的繪畫作品、練習筆記與學習心得。"
+      content="藝術生的繪畫作品、練習筆記與靈感日誌。"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,750&family=Space+Grotesk:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -20,40 +20,54 @@
     <div class="page">
       <header class="hero" id="top">
         <nav class="nav">
-          <a class="logo" href="#top">ch4 sketchlog</a>
+          <div class="logo-wrap">
+            <a class="logo" href="#top">ch4 art diary</a>
+            <span class="logo-tag">藝術生</span>
+          </div>
           <div class="nav-links">
-            <a href="#works">作品</a>
-            <a href="#journal">日誌</a>
-            <a href="#learning">學習</a>
+            <a href="#works">作品牆</a>
+            <a href="#journal">練習日誌</a>
+            <a href="#learning">計畫</a>
             <a href="#about">關於</a>
             <a href="#contact">聯絡</a>
           </div>
           <a class="btn btn-outline" href="#contact">合作邀約</a>
         </nav>
+        <div class="hero-doodles" aria-hidden="true">
+          <span class="doodle star"></span>
+          <span class="doodle heart"></span>
+          <span class="doodle bubble"></span>
+          <span class="doodle swirl"></span>
+        </div>
 
         <div class="hero-grid">
           <div class="hero-text">
-            <p class="eyebrow">繪畫記錄部落格</p>
+            <p class="eyebrow">藝術生的繪畫日誌</p>
             <h1>
-              用線條記下每一次觀察，
-              <span class="accent">把學習留在紙上。</span>
+              把色彩與靈感，
+              <span class="accent">收進可愛的練習日記。</span>
             </h1>
             <p class="lead">
-              這裡收錄我的作品、臨摹練習與心得筆記。希望用清楚的步驟與反思，讓
-              繪畫進步變成可追蹤的路徑。
+              這裡放我的作品、臨摹記錄、課後筆記與小心得。用軟萌配色與清楚步驟，
+              把進步的軌跡畫出來。
             </p>
+            <div class="badge-row">
+              <span class="badge badge-peach">夢幻配色</span>
+              <span class="badge badge-sky">角色設計</span>
+              <span class="badge badge-mint">線稿練習</span>
+            </div>
             <div class="hero-actions">
-              <a class="btn btn-solid" href="#works">看最新作品</a>
-              <a class="btn btn-ghost" href="#journal">閱讀練習日誌</a>
+              <a class="btn btn-solid" href="#works">打開作品牆</a>
+              <a class="btn btn-ghost" href="#journal">翻翻練習日誌</a>
             </div>
             <div class="hero-meta">
               <div>
-                <p class="meta-label">近期主題</p>
-                <p class="meta-value">人物光影 / 城市速寫 / 色鉛筆肌理</p>
+                <p class="meta-label">正在進行</p>
+                <p class="meta-value">角色表情 / 海洋配色 / 光影漸層</p>
               </div>
               <div>
-                <p class="meta-label">更新頻率</p>
-                <p class="meta-value">每週 1 - 2 篇</p>
+                <p class="meta-label">本週練習</p>
+                <p class="meta-value">上色 3 張 / 速寫 6 張</p>
               </div>
             </div>
           </div>
@@ -61,19 +75,19 @@
           <div class="hero-art">
             <div class="stack-card" style="--delay: 0s">
               <div class="frame">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
               <p class="caption">《晨光》/ 色鉛筆 / 2026.01</p>
             </div>
             <div class="stack-card" style="--delay: 0.15s">
               <div class="frame alt">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
               <p class="caption">《街角速寫》/ 鋼筆 / 2025.12</p>
             </div>
             <div class="stack-card" style="--delay: 0.3s">
               <div class="frame alt-2">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
               <p class="caption">《雨後》/ 水彩 / 2025.11</p>
             </div>
@@ -85,19 +99,19 @@
         <section class="section" id="works">
           <div class="section-head">
             <div>
-              <p class="eyebrow">作品集</p>
-              <h2>近期作品與系列</h2>
+              <p class="eyebrow">作品牆</p>
+              <h2>夢幻系列與練習筆記</h2>
             </div>
             <p class="section-sub">
-              每件作品都附上媒材、目標與反思。你可以把圖片換成自己的作品。
+              每件作品都附上媒材、目標與反思，像貼紙一樣收藏進你的畫本。
             </p>
           </div>
           <div class="cards-grid">
             <article class="work-card" style="--delay: 0s">
               <div class="frame wide">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
-              <h3>光影研究：早晨的人像</h3>
+              <h3>光影研究：晨光人像</h3>
               <p class="card-meta">色鉛筆 / 2026.01 / 3 小時</p>
               <p>
                 目標是強化暖光與冷影的對比，練習臉部平面轉折與筆觸疊色。
@@ -105,9 +119,9 @@
             </article>
             <article class="work-card" style="--delay: 0.1s">
               <div class="frame wide alt">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
-              <h3>城市速寫：午後的轉角</h3>
+              <h3>城市速寫：午後轉角</h3>
               <p class="card-meta">鋼筆 / 2025.12 / 45 分</p>
               <p>
                 練習快速抓取透視與構圖，保留街景的生活感，降低細節焦慮。
@@ -115,7 +129,7 @@
             </article>
             <article class="work-card" style="--delay: 0.2s">
               <div class="frame wide alt-2">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
               <h3>色塊練習：雨後植栽</h3>
               <p class="card-meta">水彩 / 2025.11 / 2 小時</p>
@@ -125,7 +139,7 @@
             </article>
             <article class="work-card" style="--delay: 0.3s">
               <div class="frame wide">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
               <h3>人體結構：手部拆解</h3>
               <p class="card-meta">鉛筆 / 2025.10 / 30 分</p>
@@ -135,7 +149,7 @@
             </article>
             <article class="work-card" style="--delay: 0.4s">
               <div class="frame wide alt">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
               <h3>光影研究：窗邊靜物</h3>
               <p class="card-meta">炭筆 / 2025.09 / 1.5 小時</p>
@@ -145,7 +159,7 @@
             </article>
             <article class="work-card" style="--delay: 0.5s">
               <div class="frame wide alt-2">
-                <span>置換成作品照片</span>
+                <span>放上你的作品</span>
               </div>
               <h3>色彩筆記：暖灰與冷灰</h3>
               <p class="card-meta">色卡練習 / 2025.08</p>
@@ -160,7 +174,7 @@
           <div class="section-head">
             <div>
               <p class="eyebrow">練習日誌</p>
-              <h2>每週紀錄與心得</h2>
+              <h2>每週的小小進度</h2>
             </div>
             <p class="section-sub">
               以短篇幅記下本週的練習方向、卡關點與下一步。
